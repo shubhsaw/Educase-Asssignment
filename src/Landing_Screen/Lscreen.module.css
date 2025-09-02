@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#base{
+    width:100%;
+    height:100vh;
+    background-color:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#plate{
+    width:500px;
+    height:100vh;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    /* align-items:center; */
+}
+#plate h1{
+    position: relative;
+    top: 650px;
+    left: 20px;
+    font-size:40px;
+    font-weight:500;
+    margin-bottom:20px;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 1px;
+}
+#plate h3{
+    position: relative;
+    top: 650px;
+    left: 20px;
+    font-size:18px;
+    font-weight:400;
+    line-height: 5px;
+    margin-bottom:20px;
+    color: grey;
+    font-family: 'poppins', sans-serif;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+    
+}
+#btn button{
+    width:450px;
+    height:50px;
+    position: relative;
+    top: 650px;
+    left: 20px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+#btn button:first-child{
+    background-color:#2563eb; 
+    color:white;
+    letter-spacing: 1px;
+}
+#btn button:first-child:hover{
+    background-color: #1e40af;
+    transition: 0.3s;
+}
+
+#btn button:last-child{
+    background-color: #f3f4f6;
+    
+}
+#btn button:last-child:hover{
+    background-color: #d1d5db;
+    transition: 0.3s;
+}

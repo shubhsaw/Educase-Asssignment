@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#base{
+    width:100%;
+    height:100vh;
+    background-color:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#plate{
+    width:500px;
+    height:100vh;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    
+}
+#plate h1{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size:40px;
+    font-weight:550;
+    margin-bottom:10px;
+    line-height: 45px;
+    font-family: 'poppins', sans-serif;
+    /* letter-spacing: 1px; */
+}
+#plate h3{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size:18px;
+    font-weight:500;
+    line-height: 5px;
+    margin-bottom:20px;
+    color: rgb(103, 102, 102);
+    font-family: 'poppins', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+form input{
+    width:450px;
+    height:50px;
+    margin-bottom:30px;
+    border:1px solid lightgrey;
+    border-radius:5px;
+    font-size:14px;
+    font-weight:400;
+    padding-left:15px;
+    outline:none;
+}
+form label:first-child{
+    height: 16px;
+    width: 130px;
+    position: absolute;
+    top: -9px;
+    left: 10px;
+    font-size:15px;
+    font-weight:525;
+    letter-spacing: 1px;
+    color: #2563eb;
+    padding-left:5px;
+    background-color: white;
+
+}
+#pass_label{
+    height: 16px;
+    width: 130px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size:15px;
+    font-weight:525;
+    letter-spacing: 1px;
+    color: #2563eb;
+    padding-left:5px;
+    background-color: white;
+
+}
+form button{
+    width:450px;
+    height:50px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    background-color:#2563eb; 
+    color:white;
+    letter-spacing: 1px;
+}
+form button:hover{
+    background-color: #1e40af;
+    transition: 0.3s;
+}
