@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import style from './Login.module.css'
 import React from 'react'
 const Login = () => {
-    const navigat=useNavigate();
+    const navigate=useNavigate();
     return (
         <div id={style.base}>
             <div id={style.plate}>
