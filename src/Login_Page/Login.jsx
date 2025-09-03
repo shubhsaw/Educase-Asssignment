@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import style from './Login.module.css'
 import React from 'react'
 const Login = () => {
-    const navigat=useNavigate();
+    const navigate=useNavigate();
     return (
         <div id={style.base}>
             <div id={style.plate}>
@@ -15,7 +15,7 @@ const Login = () => {
                     <input type="email" id={style.email} placeholder='Enter your email' />
                     <label htmlFor="" id={style.pass_label}>Password</label>
                     <input type="password" id={style.pass} placeholder='Enter your password' />
-                    <button id={style.loginbtn} onClick={()=>navigat('/profile')}>Login</button>
+                    <button id={style.loginbtn} onClick={()=>navigate('/profile')}>Login</button>
                 </form>
 
             </div>
